@@ -1,0 +1,43 @@
+{
+    "codes": {
+        "cze": {
+            "iso3": "cze",
+            "iso2": "cs",
+            "native_name": "Čeština"
+        },
+        "eng": {
+            "iso3": "eng",
+            "iso2": "en",
+            "native_name": "English"
+        },
+        "slo": {
+            "iso3": "slo",
+            "iso2": "sk",
+            "native_name": "Slovenčina"
+        },
+        "ita": {
+            "iso3": "ita",
+            "iso2": "it",
+            "native_name": "Italiano"
+        },
+        "pol": {
+            "iso3": "pol",
+            "iso2": "pl",
+            "native_name": "Polszczyzna"
+        },
+        "ger": {
+            "iso3": "ger",
+            "iso2": "de",
+            "native_name": "Deutsch"
+        }
+    },
+    "flags": {
+        "sizes": [
+            "240px",
+            "48px",
+            "24px"
+        ],
+        "url": "https://cdn.hopo.online/langs/flag/<iso3><size>.png",
+        "url_example": "https://cdn.hopo.online/langs/flag/cze24.png"
+    }
+}
