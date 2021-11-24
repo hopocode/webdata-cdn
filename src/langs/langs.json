@@ -1,4 +1,7 @@
 {
+    "src": "https://cdn.hopo.online/langs/langs.json",
+    "doc": "https://cdn.hopo.online",
+    "sid": "00aead747a347ecf9f6dbcd77a2611c7",
     "codes": {
         "cze": {
             "iso3": "cze",
