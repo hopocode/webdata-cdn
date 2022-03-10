@@ -1,0 +1,117 @@
+{
+    "src": "https://cdn.hopo.online/log/level.json",
+    "php": "https://cdn.hopo.online/log/level.php.txt",
+    "doc": "https://cdn.hopo.online",
+    "included": [
+        "https://datatracker.ietf.org/doc/html/rfc5424",
+        "https://github.com/Seldaek/monolog/blob/2.3.5/src/Monolog/Logger.php"
+    ],
+    "sid": "00aead747a347ecf9f6dbcd77a2611c8",
+    "rfc5424": [
+        {
+            "level": 0,
+            "name": "Emergency",
+            "description": "system is unusable"
+        },
+        {
+            "level": 1,
+            "name": "Alert",
+            "description": "action must be taken immediately"
+        },
+        {
+            "level": 2,
+            "name": "Critical",
+            "description": "critical conditions"
+        },
+        {
+            "level": 3,
+            "name": "Error",
+            "description": "error conditions"
+        },
+        {
+            "level": 4,
+            "name": "Warning",
+            "description": "warning conditions"
+        },
+        {
+            "level": 5,
+            "name": "Notice",
+            "description": "normal but significant condition"
+        },
+        {
+            "level": 6,
+            "name": "Informational",
+            "description": "informational messages"
+        },
+        {
+            "level": 7,
+            "name": "Debug",
+            "description": "debug-level messages"
+        }
+    ],
+    "levels": {
+        "verbose": {
+            "code": 100,
+            "new_rec_code": 101,
+            "rfc5424_level": 7,
+            "stan-type": "DEBUG"
+        },
+        "debug": {
+            "code": 150,
+            "new_rec_code": 151,
+            "rfc5424_level": 7,
+            "stan-type": "DEBUG"
+        },
+        "info": {
+            "code": 200,
+            "new_rec_code": 201,
+            "rfc5424_level": 6,
+            "stan-type": "INFO"
+        },
+        "notice": {
+            "code": 250,
+            "new_rec_code": 251,
+            "rfc5424_level": 5,
+            "stan-type": "NOTICE"
+        },
+        "warning": {
+            "code": 300,
+            "new_rec_code": 301,
+            "rfc5424_level": 4,
+            "stan-type": "WARNING"
+        },
+        "error": {
+            "code": 400,
+            "new_rec_code": 401,
+            "rfc5424_level": 3,
+            "stan-type": "ERROR"
+        },
+        "critical": {
+            "code": 500,
+            "new_rec_code": 501,
+            "rfc5424_level": 2,
+            "stan-type": "CRITICAL"
+        },
+        "alert": {
+            "code": 550,
+            "new_rec_code": 551,
+            "rfc5424_level": 1,
+            "stan-type": "ALERT"
+        },
+        "emergency": {
+            "code": 600,
+            "new_rec_code": 601,
+            "rfc5424_level": 0,
+            "stan-type": "EMERGENCY"
+        }
+    },
+    "flags": {
+        "sizes": [
+            "240px",
+            "48px",
+            "24px"
+        ],
+        "url": "https://cdn.hopo.online/langs/flag/<iso3><size>.png",
+        "url_example": "https://cdn.hopo.online/langs/flag/cze24.png"
+    }
+}
