@@ -1,0 +1,26 @@
+<?php
+
+declare(strict_types=1);
+
+namespace WebdataCdn\Log;
+
+interface ILogLevel {
+    public const VERBOSE = 100;
+    public const VERBOSE_NEW = 101;
+    public const DEBUG = 150;
+    public const DEBUG_NEW = 151;
+    public const INFO = 200;
+    public const INFO_NEW = 201;
+    public const NOTICE = 250;
+    public const NOTICE_NEW = 251;
+    public const WARNING = 300;
+    public const WARNING_NEW = 301;
+    public const ERROR = 400;
+    public const ERROR_NEW = 401;
+    public const CRITICAL = 500;
+    public const CRITICAL_NEW = 501;
+    public const ALERT = 550;
+    public const ALERT_NEW = 551;
+    public const EMERGENCY = 600;
+    public const EMERGENCY_NEW = 601;
+}
